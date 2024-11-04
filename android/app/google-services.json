@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "206966664655",
+    "firebase_url": "https://reelsharingandroidapp-default-rtdb.firebaseio.com",
+    "project_id": "reelsharingandroidapp",
+    "storage_bucket": "reelsharingandroidapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206966664655:android:c0f944a19bb6e9e31fb6ba",
+        "android_client_info": {
+          "package_name": "com.reelsharing"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiU6pVnEaOtJAeAbnfXCppFM3K1ngkE8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
