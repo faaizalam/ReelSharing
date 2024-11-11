@@ -1,4 +1,4 @@
-import { View, Text, Linking } from 'react-native'
+import { View, Text, Linking, SafeAreaView, StyleSheet, Dimensions } from 'react-native'
 import React, { useEffect } from 'react'
 import { useNavigation } from '@react-navigation/native'
 
@@ -49,10 +49,25 @@ const navigate=useNavigation()
         })
     })
   return (
-    <View>
-      <Text>SplashScreen</Text>
+    <SafeAreaView style={styles.conT}>
+    <View >
+      <Text>Faaiz Alam Practice App</Text>
     </View>
+
+    </SafeAreaView>
   )
 }
+
+const styles = StyleSheet.create({
+conT:{
+  flex:1,
+  height:Dimensions.get("window").width,
+  height:Dimensions.get("window").height,
+  backgroundColor: "red",
+  alignItems:"center",
+  justifyContent:"center"
+}
+  
+})
 
 export default SplashScreen

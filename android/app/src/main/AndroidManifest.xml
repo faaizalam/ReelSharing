@@ -31,7 +31,7 @@
           <category android:name="android.intent.category.BROWSABLE" />
           <data android:scheme="http" />
           <data android:scheme="https" />
-          <data android:host="localhost" />
+          <data android:host="deeplinkthree-89cvdw8v.b4a.run" />
           <!-- REPLACE the HOST with app domain like reelzzz.com and Subscribe if you havent Ritik Prasad😁 -->
         </intent-filter>
    <!-- DEEP LINKS HERE -->

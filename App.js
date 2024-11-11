@@ -41,12 +41,12 @@ function App(){
   const config={
     screens:{
       product:"user/:id",
-      Home:"reel/:id"
+      Home:"product/:id"
 
     }
   }
   let linking={
-    prefixes:["http://localhost:3000"],
+    prefixes:["https://deeplinkthree-89cvdw8v.b4a.run"],
     config
   }
 
