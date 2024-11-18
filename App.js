@@ -15,6 +15,8 @@ import {
 import Home from './src/Sharing/Home';
 import Product from './src/Sharing/Product';
 import SplashScreen from './SplashScreen';
+import ProductInfo from './src/Sharing/ProductInfo';
+import AddProduct from './src/Sharing/AddProduct';
 
 
 
@@ -59,6 +61,9 @@ function App(){
       <Stack.Screen name="Home" component={Home} />
       <Stack.Screen name="product" component={Product} />
       <Stack.Screen name="splash" component={SplashScreen} />
+      <Stack.Screen name="ProductDetails" component={ProductInfo} />
+      <Stack.Screen name="AddProduct" component={AddProduct} />
+
     </Stack.Navigator>
   </NavigationContainer>
    
